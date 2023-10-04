@@ -77,7 +77,8 @@
                 document.getElementById('emailInputTag').value=obj.email
                 document.getElementById('phoneNumberInputTag').value=obj.phonenumber
                 axios.delete(`https://crudcrud.com/api/cc1cea7d8bfe4f86849587459e4add41/appointmentData/${obj._id}`) ////adding urw with obj._id because server return _id not only id
-                  
+                ////axios.put(`https://crudcrud.com/api/cc1cea7d8bfe4f86849587459e4add41/appointmentData/${obj._id}`) ////adding urw with obj._id because server return _id not only id
+                  ////put function is also work like axios.delete function    
                 
             }
 
